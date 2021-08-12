@@ -1,1 +1,0 @@
-GFTGermanAPP
