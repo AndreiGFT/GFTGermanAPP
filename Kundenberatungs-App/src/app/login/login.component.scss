@@ -1,0 +1,122 @@
+.login-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  width: 1024px;
+  height: 768px;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+
+  .backgroundimage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.login-box {
+  display: flex;
+  justify-content: space-between;
+  z-index: 11;
+  height: 472px;
+  width: 592px;
+  margin: 144px auto 152px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 56px 0 32px 0;
+}
+
+.login-overlay {
+  width: 304px;
+  height: 240px;
+  background-color: var(--color-tr-whitee);
+  box-shadow: 0 2px 4px 0 (var(--color-tr-black, 0.05)), 0 2px 8px 0 (var(--color-tr-grey2, 0.4));
+  padding: 56px 0 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 11;
+  box-sizing: border-box;
+
+  .user-font-bold {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .user-font {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .img-profil {
+    margin-bottom: 24px;
+
+    .initials p {
+      margin-top: 0px;
+    }
+  }
+}
+
+.trumpf-logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 65px;
+  margin-top: 92px;
+  width: 144px;
+  height: 144px;
+}
+
+.login-box-password {
+  display: flex;
+  justify-content: space-between;
+  z-index: 11;
+  //height: 472px;
+  width: 592px;
+  margin: 144px auto 152px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.login-overlay-big {
+  width: 592px;
+  height: 472px;
+  background-color: var(--color-tr-white, 0.75);
+  box-shadow: 0 2px 4px 0 (var(--color-tr-black, 0.05)), 0 2px 8px 0 (var(--color-tr-grey2, 0.4));
+  padding: 56px 0 42px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  z-index: 11;
+  box-sizing: border-box;
+
+  .user-font-bold {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .user-font {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 26px;
+  }
+
+  .img-profil {
+    margin-bottom: 24px;
+
+    .initials p {
+      margin-top: 0px;
+    }
+  }
+
+  .login-password {
+    width: 288px;
+    margin-bottom: 88px;
+  }
+}
