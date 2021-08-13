@@ -2,6 +2,10 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "target": "es2017",
+    "lib": ["es2018", "dom"],
+    "removeComments": true,
+    "incremental": true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -14,12 +18,7 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2017",
-    "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ]
+    "module": "es2020"
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
